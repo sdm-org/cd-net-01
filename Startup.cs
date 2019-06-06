@@ -36,7 +36,7 @@ namespace aspnetapp
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
 
             services.Configure<ForwardedHeadersOptions>(options =>
-            {
+            { 
                 options.ForwardedHeaders = 
                     ForwardedHeaders.XForwardedFor | ForwardedHeaders.XForwardedProto;
             });
