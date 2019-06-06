@@ -12,7 +12,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
   
 namespace aspnetapp
-{  
+{   
     public class Startup   
     { 
         public Startup(IConfiguration configuration)
